@@ -1,0 +1,27 @@
+.Menu-icon{
+    display: none;
+}
+
+html,body{
+    overflow-x: hidden;
+
+}
+
+.boxShadow{
+    box-shadow: 0px 0px 8px white;
+}
+
+
+body{
+    
+}
+
+@media (max-width:992px) {
+    .Right-Navbar ul li a{
+        display: none;
+    }
+
+    .Menu-icon{
+        display: block;
+    }
+}
